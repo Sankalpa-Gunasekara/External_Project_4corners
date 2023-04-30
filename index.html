@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
   </head>
 
   <body style="font-family: Raleway, sans-serif; font-size: 16px">
@@ -71,7 +73,7 @@
         <div class="col">
           <a href="" class="heading-link">
             <div class="hstack gap-5">
-              <h2>How to apply</h2>
+              <h3>How to apply</h3>
               <i class="fa fa-arrow-circle-right heading-link-icon" aria-hidden="true"></i>
             </div>
           </a>
@@ -79,7 +81,7 @@
         <div class="col">
           <a href="" class="heading-link">
             <div class="hstack gap-5">
-              <h2>Why choose us</h2>
+              <h3>Why choose us</h3>
               <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
             </div>
           </a>
@@ -87,7 +89,7 @@
         <div class="col">
           <a href="" class="heading-link">
             <div class="hstack gap-5">
-              <h2>Explore SLTTC</h2>
+              <h3>Explore SLTTC</h3>
               <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
             </div>
           </a>
@@ -109,7 +111,7 @@
     <!--Study with us-->
     <section class="container">
       <div class="row">
-        <div class="col">
+        <div class="col-6">
           <h3 class="text-start">Study with us</h3>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
@@ -118,27 +120,37 @@
             containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <div class="col">
-          <div class="row">
-            <div class="col">
-              <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                <h3>B Eng Degree</h3>
-                <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
-                <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+        <div class="col-6">
+          <div class="hstack justify-content-end my-2">
+            <button type="button" class="circuler-button mx-2 customNextBtn">
+              <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
+            </button>
+            <button type="button" class="circuler-button mx-2 customPrevBtn">
+              <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
+            </button>
+          </div>
+          <div class="owl-carousel">
+            <div class="row">
+              <div class="col">
+                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                  <h3>B Eng Degree</h3>
+                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                <h3>B Eng Degree</h3>
-                <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
-                <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+              <div class="col">
+                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                  <h3>Tex Eng Degree</h3>
+                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+                </div>
               </div>
-            </div>
-            <div class="col">
-              <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
-                <h3>B Eng Degree</h3>
-                <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
-                <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+              <div class="col">
+                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                  <h3>Val Eng Degree</h3>
+                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
+                </div>
               </div>
             </div>
           </div>
@@ -201,12 +213,13 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button collapsed"
+                  class="accordion-button collapsed ms-auto"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseTwo"
                   aria-expanded="false"
                   aria-controls="collapseTwo"
+                  style="width: 100%"
                 >
                   Can you work while studying
                 </button>
@@ -224,12 +237,13 @@
             <div class="accordion-item">
               <h2 class="accordion-header">
                 <button
-                  class="accordion-button"
+                  class="accordion-button me-auto"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target="#collapseThree"
                   aria-expanded="true"
-                  aria-controls="collapseOne"
+                  aria-controls="collapseThree"
+                  style="width: 100% !important"
                 >
                   Is distance learning avaliable at graduate level?
                 </button>
@@ -361,5 +375,41 @@
       integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
       crossorigin="anonymous"
     ></script>
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+        rewind: true,
+        dots: true,
+        autoplay: false,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 1,
+          },
+          1000: {
+            items: 1,
+          },
+        },
+      });
+      var owl = $(".owl-carousel");
+      owl.owlCarousel();
+      // Go to the next item
+      $(".customNextBtn").click(function () {
+        owl.trigger("next.owl.carousel");
+      });
+      // Go to the previous item
+      $(".customPrevBtn").click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        owl.trigger("prev.owl.carousel", [300]);
+      });
+    </script>
   </body>
 </html>
