@@ -73,10 +73,10 @@ h3 {
 h2 {
   display: inline-block;
 }
-.col {
+/* .col {
   margin: 13px auto auto;
   text-align: center;
-}
+} */
 .col i {
   position: relative;
   bottom: 5px;
@@ -313,7 +313,11 @@ h2 {
 
 .news-events-img {
   width: 150px;
-  color: #222 !important;
-  text-decoration: none !important;
-  border-radius: 25px;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.news-events-anchor {
+  text-decoration: underline !important;
+  color: #000 !important;
 }
