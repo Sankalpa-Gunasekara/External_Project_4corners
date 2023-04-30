@@ -310,3 +310,10 @@ h2 {
   font-size: 16px;
   font-weight: bolder;
 }
+
+.news-events-img {
+  width: 150px;
+  color: #222 !important;
+  text-decoration: none !important;
+  border-radius: 25px;
+}
