@@ -267,10 +267,9 @@ h2 {
   border-radius: 20px;
 }
 .upcoming-course {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: red;
+  position: relative;
+  bottom: 200px;
+  z-index: 1;
 }
 .container-fluid.hero-outer-container {
   background-image: url(../../assets/img/curves_03.png);
@@ -343,6 +342,20 @@ h2 {
   z-index: 1;
 }
 
+.custom-footer::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-image: url(../img/curves_03.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 600px;
+  height: 200px;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
 /* .custom-footer::after {
   content: "";
   display: flex;
@@ -380,4 +393,8 @@ h2 {
   background-color: transparent;
   border: 1px solid #8f8f8f;
   cursor: pointer;
+}
+
+.study-with-heading {
+  color: #1485ee;
 }
