@@ -356,17 +356,6 @@ h2 {
   transform: scaleX(-1);
 }
 
-/* .custom-footer::after {
-  content: "";
-  display: flex;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-image: url(../img/curves_03.png);
-  background-position: bottom left;
-  background-repeat: no-repeat;
-} */
-
 .footer-link {
   color: #fff;
   text-decoration: none;
