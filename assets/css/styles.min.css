@@ -328,13 +328,14 @@ h2 {
   color: #000 !important;
 }
 
+/* Footer style */
 .footer-banner {
   background-image: url(../../assets/img/SLT-NEBULA-HOME.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .custom-footer {
-  height: 300px;
+  height: auto;
   background-image: url(../img/nebula-2560x1440-space-stars-4k-6592.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -367,6 +368,7 @@ h2 {
   text-decoration: underline;
 }
 
+/* footer style end */
 .affiliations-img {
   width: 100px;
   height: 100px;
@@ -386,4 +388,24 @@ h2 {
 
 .study-with-heading {
   color: #1485ee;
+  text-align: left;
+}
+
+/* 
+commmon */
+
+.section-header {
+  text-align: left;
+  margin-bottom: 25px;
+  color: #5c5d5e;
+  font-size: 38px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .custom-footer::before {
+    display: none;
+  }
+  .container-fluid.hero-outer-container {
+    background-image: none;
+  }
 }
