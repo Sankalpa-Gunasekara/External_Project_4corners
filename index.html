@@ -123,16 +123,18 @@
           </p>
         </div>
         <div class="col-sm-12 col-md-6">
+          <!--Custom carousal btn start-->
           <div class="hstack justify-content-end my-2">
-            <button type="button" class="circuler-button mx-2 customNextBtn">
+            <button type="button" id="study-carousal-NextBtn" class="circuler-button mx-2">
               <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
             </button>
-            <button type="button" class="circuler-button mx-2 customPrevBtn">
+            <button type="button" id="study-carousal-PrevBtn" class="circuler-button mx-2">
               <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
             </button>
           </div>
+          <!--Custom carousal btn end-->
           <div class="row">
-            <div class="owl-carousel">
+            <div id="study-carousal" class="owl-carousel">
               <div class="col">
                 <div class="p-3 mb-5 bg-body-tertiary rounded">
                   <p class="study-with-heading">B Eng Degree</p>
@@ -165,66 +167,66 @@
 
     <section class="container mt-5">
       <p class="section-header">Student Stories</p>
-      <div class="row">
-        <div class="hstack justify-content-end my-2 col-6">
-          <button type="button" class="circuler-button mx-2 customNextBtn">
-            <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
-          </button>
-          <button type="button" class="circuler-button mx-2 customPrevBtn">
-            <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
-          </button>
-        </div>
+
+      <!--Custom carousal btn start-->
+      <div class="hstack justify-content-end my-2">
+        <button type="button" id="stories-carousel-NextBtn" class="circuler-button mx-2">
+          <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
+        </button>
+        <button type="button" id="stories-carousel-PrevBtn" class="circuler-button mx-2">
+          <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
+        </button>
       </div>
 
+      <!--Custom carousal btn end-->
+
       <div class="row">
-        <div class="owl-carousel">
-          <div class="row">
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(247, 200, 71)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+        <div id="stories-carousel" class="owl-carousel">
+          <div class="col">
+            <div class="p-3 mb-5 rounded-5" style="background-color: rgb(247, 200, 71)">
+              <div class="row">
+                <p>The foundation year has been great for me to build my subject knowledge and confident</p>
+                <p class="mb-0"><b>Electrical Engineer</b></p>
+                <p style="font-size: 12px">Thisera Fernando</p>
+              </div>
+              <div class="row my-5 stories-image">
+                <img src="assets\img\SLT-NEBULA-HOME.jpg" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(255, 156, 161)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+          </div>
+          <div class="col">
+            <div class="p-3 mb-5 rounded-5" style="background-color: rgb(255, 156, 161)">
+              <div class="row">
+                <p>The foundation year has been great for me to build my subject knowledge and confident</p>
+                <p class="mb-0"><b>Electrical Engineer</b></p>
+                <p style="font-size: 12px">Thisera Fernando</p>
+              </div>
+              <div class="row my-5">
+                <img src="assets\img\SLT-NEBULA-HOME.jpg" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(188, 236, 148)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+          </div>
+          <div class="col">
+            <div class="p-3 mb-5 rounded-5" style="background-color: rgb(188, 236, 148)">
+              <div class="row">
+                <p>The foundation year has been great for me to build my subject knowledge and confident</p>
+                <p class="mb-0"><b>Electrical Engineer</b></p>
+                <p style="font-size: 12px">Thisera Fernando</p>
+              </div>
+              <div class="row my-5">
+                <img src="assets\img\SLT-NEBULA-HOME.jpg" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(93, 231, 231)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+          </div>
+          <div class="col">
+            <div class="p-3 mb-5 rounded-5" style="background-color: rgb(93, 231, 231)">
+              <div class="row">
+                <p>The foundation year has been great for me to build my subject knowledge and confident</p>
+                <p class="mb-0"><b>Electrical Engineer</b></p>
+                <p style="font-size: 12px">Thisera Fernando</p>
+              </div>
+              <div class="row my-5">
+                <img src="assets\img\SLT-NEBULA-HOME.jpg" />
               </div>
             </div>
           </div>
@@ -391,29 +393,27 @@
     <!--Footer-->
     <footer class="container-fluid mt-5 p-sm-3 p-5 custom-footer">
       <!-- Footer content goes here -->
-      <div class="row mt-md-5 justify-content-start">
-        <div class="col-sm-12 col-md-3 justify-content-center">
-          <img src="assets/img/SLT-NEBULA-HOME.jpg" alt="banner" style="width: 50%" />
+      <div class="row mt-md-5 mb-5">
+        <div class="col-sm-12 col-md-3 mt-md-5 mb-5">
+          <div style="display: flex; justify-content: center">
+            <img src="assets/img/SLT-NEBULA-HOME.jpg" alt="banner" style="width: 75%" />
+          </div>
         </div>
-        <div class="col-sm-12 col-md-3 mt-5 justify-content-center">
-          <div class="row offset-2">
-            <div class="col">
-              <div class="vstack gap-4">
-                <a href="" class="footer-link">Courses</a>
-                <a href="" class="footer-link">Study Centers</a>
-                <a href="" class="footer-link">Life at Nebula</a>
-              </div>
+        <div class="col-sm-12 col-md-3 mt-md-5 mt-sm-5 mb-5">
+          <div style="display: flex; justify-content: space-between">
+            <div class="vstack gap-4 align-items-center">
+              <a href="" class="footer-link">Courses</a>
+              <a href="" class="footer-link">Study Centers</a>
+              <a href="" class="footer-link">Life at Nebula</a>
             </div>
-            <div class="col">
-              <div class="vstack gap-4">
-                <a href="" class="footer-link">News & Events</a>
-                <a href="" class="footer-link">About Us</a>
-                <a href="" class="footer-link">Contact Us</a>
-              </div>
+            <div class="vstack gap-4">
+              <a href="" class="footer-link">News & Events</a>
+              <a href="" class="footer-link">About Us</a>
+              <a href="" class="footer-link">Contact Us</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 mt-5">
+        <div class="col-sm-12 col-md-3 mt-md-5 mt-sm-5">
           <div class="vstack gap-2">
             <div style="display: flex; align-items: center; justify-content: center; flex-direction: column">
               <div class="hstack gap-5 mb-3 justify-content-center">
@@ -448,14 +448,11 @@
     <script src="jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-      $(".owl-carousel").owlCarousel({
+      $("#study-carousal").owlCarousel({
         loop: true,
         margin: 10,
-        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
         rewind: true,
-        dots: true,
         autoplay: false,
-
         responsive: {
           0: {
             items: 2,
@@ -468,17 +465,48 @@
           },
         },
       });
-      var owl = $(".owl-carousel");
-      owl.owlCarousel();
+
       // Go to the next item
-      $(".customNextBtn").click(function () {
-        owl.trigger("next.owl.carousel");
+      $("#study-carousal-NextBtn").click(function () {
+        $("#study-carousal").trigger("next.owl.carousel");
       });
       // Go to the previous item
-      $(".customPrevBtn").click(function () {
+      $("#study-carousal-PrevBtn").click(function () {
         // With optional speed parameter
         // Parameters has to be in square bracket '[]'
-        owl.trigger("prev.owl.carousel", [300]);
+        $("#study-carousal").trigger("prev.owl.carousel", [300]);
+      });
+    </script>
+    <script>
+      $("#stories-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        rewind: true,
+        dots: true,
+        autoplay: false,
+
+        responsive: {
+          0: {
+            items: 2,
+          },
+          600: {
+            items: 4,
+          },
+          1000: {
+            items: 4,
+          },
+        },
+      });
+
+      // Go to the next item
+      $("#stories-carousel-NextBtn").click(function () {
+        $("#stories-carousel").trigger("next.owl.carousel");
+      });
+      // Go to the previous item
+      $("#stories-carousel-PrevBtn").click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        $("#stories-carousel").trigger("prev.owl.carousel", [300]);
       });
     </script>
   </body>
