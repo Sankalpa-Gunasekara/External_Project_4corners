@@ -268,7 +268,8 @@ h2 {
 }
 .upcoming-course {
   position: relative;
-  bottom: 200px;
+  right: -200px;
+  bottom: 250px;
   z-index: 1;
 }
 .container-fluid.hero-outer-container {
@@ -277,11 +278,40 @@ h2 {
   background-repeat: no-repeat;
 }
 .upcoming-course-in {
+  border-top-left-radius: 20px;
   position: relative;
   background-image: url(../../assets/img/upcoming-bg.jpg);
   background-repeat: repeat-y;
   width: 351px;
-  padding: 38px 34px 2px;
+  padding: 35px;
+}
+.upcoming-course-date {
+  position: relative;
+  right: -150px;
+  bottom: -20px;
+  border-top: 2px solid #b5a632;
+  border-left: 2px solid #b5a632;
+  border-right: 2px solid #b5a632;
+  background-color: #1485ee;
+  padding: 20px;
+  border-radius: 100% 100% 0 0;
+  overflow: hidden;
+  width: 120px;
+  height: 80px;
+  text-align: center;
+  font-size: 12px;
+}
+.upcoming-course button {
+  background-color: #1485ee;
+  border-radius: 20px;
+  color: #fff;
+  border: 2px solid #b5a632; /* set border color here */
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
 }
 .upcoming-course-in h1 {
   font-size: 24px;
@@ -398,6 +428,10 @@ commmon */
   font-size: 38px;
 }
 
+/*Study with us*/
+.study-with-align {
+  margin-top: -250px;
+}
 /*student stories*/
 .stories-card {
   max-height: 500px;
@@ -450,7 +484,8 @@ commmon */
   left: 0;
   height: 100%;
   width: 50%;
-  background-color: #eff8ff;
+  /* background-color: #eff8ff; */
+  background-color: red;
   z-index: -1;
 }
 @media only screen and (max-width: 1250px) {
@@ -459,5 +494,19 @@ commmon */
   }
   .container-fluid.hero-outer-container {
     background-image: none;
+  }
+  .study-with-align {
+    margin-top: auto;
+  }
+  .upcoming-course {
+    position: static;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .upcoming-cource-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
