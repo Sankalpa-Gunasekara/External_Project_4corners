@@ -268,7 +268,7 @@ h2 {
 }
 .upcoming-course {
   position: relative;
-  right: -200px;
+  right: -60px;
   bottom: 250px;
   z-index: 1;
 }
@@ -293,13 +293,20 @@ h2 {
   border-left: 2px solid #b5a632;
   border-right: 2px solid #b5a632;
   background-color: #1485ee;
-  padding: 20px;
+  padding: 4px;
   border-radius: 100% 100% 0 0;
   overflow: hidden;
   width: 120px;
-  height: 80px;
+  height: 65px;
   text-align: center;
-  font-size: 12px;
+  font-size: 11px;
+}
+.upcoming-course-date p {
+  color: #fff;
+  font-size: 12px !important;
+}
+.upcoming-cource-button-box {
+  margin-top: -50px;
 }
 .upcoming-course button {
   background-color: #1485ee;
@@ -312,13 +319,16 @@ h2 {
   padding: 10px 20px;
   cursor: pointer;
   margin-top: 20px;
+  z-index: 1;
+  overflow: hidden;
 }
-.upcoming-course-in h1 {
-  font-size: 24px;
+.upcoming-course-in h2 {
+  font-size: 18px;
   font-weight: 700;
   color: #fff;
 }
 .upcoming-course-in p {
+  font-size: 14px;
   color: #fefefe;
 }
 .uc-box-title {
