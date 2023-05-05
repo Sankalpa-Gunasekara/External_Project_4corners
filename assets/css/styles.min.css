@@ -1,4 +1,4 @@
-.features-clean {
+/* .features-clean {
   color: #313437;
   background-color: #fff;
   padding-bottom: 30px;
@@ -73,10 +73,7 @@ h3 {
 h2 {
   display: inline-block;
 }
-/* .col {
-  margin: 13px auto auto;
-  text-align: center;
-} */
+
 .col i {
   position: relative;
   bottom: 5px;
@@ -216,7 +213,7 @@ h2 {
 .navigation-clean.navbar-dark .dropdown-menu .dropdown-item:focus,
 .navigation-clean.navbar-dark .dropdown-menu .dropdown-item:hover {
   background: #363739;
-}
+} */
 @media (max-width: 767px) {
   .navigation-clean.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item {
     color: #fff;
