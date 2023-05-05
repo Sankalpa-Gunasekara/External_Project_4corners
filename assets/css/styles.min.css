@@ -282,7 +282,7 @@ h2 {
   width: 351px;
   padding: 35px;
 }
-.upcoming-course-date {
+/* .upcoming-course-date {
   position: relative;
   right: -150px;
   bottom: -20px;
@@ -301,9 +301,13 @@ h2 {
 .upcoming-course-date p {
   color: #fff;
   font-size: 12px !important;
-}
+} */
 .upcoming-cource-button-box {
   margin-top: -50px;
+}
+.upcoming-course-date-text {
+  margin: 20px 0 40px 0;
+  text-align: center;
 }
 .upcoming-course button {
   background-color: #1485ee;
