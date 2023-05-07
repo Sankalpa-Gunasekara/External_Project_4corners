@@ -604,3 +604,75 @@ div.Courses-topic {
   max-width: 1436px;
 }
 
+.electronics-communicationt-icon img {
+  margin-top: 120px;
+  margin-right: auto;
+  background-repeat: no-repeat;
+  width: 350px;
+  position: absolute;
+}
+
+.Electronics-Communicationt{
+  padding-top: 70px;
+  padding-left: 400px;
+}
+
+.Electronics-Communicationt div div div p{
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 60px;
+}
+
+.Electronics-Communicationt h2 {
+  color: rgb(40, 177, 235);
+}
+
+.download-text{
+  color: blue;
+  font-family: sans-serif;
+}
+
+.course-page-bullets {
+  margin-top: 145px;
+  margin-left: 60px;
+  font-size: 13px;
+  position: absolute;
+}
+
+.course-page-bullets li::before{
+  /* list-style-type:circle;  */
+  /* list-style-color:red;  */
+  content: "\2022";
+  color:rgb(78, 175, 236);
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+.course-page-bullets li{
+  font-weight: bold;
+}
+
+
+.course-download {
+  background: #0055a2;
+  border-radius: 20px;
+  box-shadow: #0055a2 0 9px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  /* font-weight: 700; */
+  line-height: 29px;
+  /* opacity: 1; */
+  /* outline: 0 solid transparent; */
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-left: 60px;
+}
