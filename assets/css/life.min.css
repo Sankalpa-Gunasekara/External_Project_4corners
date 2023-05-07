@@ -185,7 +185,7 @@
 
 /*underline style*/
 .start-underline {
-  width: 200px;
+  width: 150px;
   height: 5px;
   border-radius: 10px;
   margin-bottom: 10px;
@@ -194,8 +194,8 @@
 }
 .end-underline {
   position: relative;
-  left: 100px;
-  width: 200px;
+  left: 200px;
+  width: 150px;
   height: 5px;
   border-radius: 10px;
   background: rgb(0, 212, 255);
@@ -229,18 +229,18 @@
     flex-direction: column;
     align-items: center;
   }
-
-  .student-stories-carousal {
-    position: static;
-    /* left: 260px;
-      z-index: -1; */
-  }
   .card-rounded {
     width: auto;
   }
-  .affiliations-img {
+  .start-underline {
     width: 100px;
-    height: 100px;
-    object-fit: contain;
+    height: 5px;
   }
+  .end-underline {
+    position: relative;
+    left: 100px;
+    width: 100px;
+    height: 5px;
+
+  
 }
