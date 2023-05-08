@@ -1,0 +1,19 @@
+.city-card {
+  width: 250px;
+  border-radius: 30px;
+  border: 1px solid rgb(42, 176, 237);
+  transition: all 0.2s ease-in-out;
+}
+
+.city-card-selected {
+  transform: scale(1.2);
+}
+
+.background-style {
+  background: rgb(42, 176, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 176, 237, 1) 35%,
+    rgba(42, 75, 182, 1) 100%
+  );
+}
