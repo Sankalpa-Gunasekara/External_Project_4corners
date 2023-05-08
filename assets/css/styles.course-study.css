@@ -17,3 +17,9 @@
     rgba(42, 75, 182, 1) 100%
   );
 }
+
+.rohan {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
