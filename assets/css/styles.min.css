@@ -215,7 +215,11 @@ h2 {
   background: #363739;
 } */
 @media (max-width: 767px) {
-  .navigation-clean.navbar-dark .navbar-nav .show .dropdown-menu .dropdown-item {
+  .navigation-clean.navbar-dark
+    .navbar-nav
+    .show
+    .dropdown-menu
+    .dropdown-item {
     color: #fff;
   }
 }
