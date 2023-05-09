@@ -1,0 +1,41 @@
+.top-banner {
+  position: relative;
+  height: 25rem;
+}
+
+.logo {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  height: 30%;
+  width: auto;
+  top: 30%;
+}
+.banner-spiral-image {
+  position: absolute;
+  height: 50%;
+  width: auto;
+  top: 50%;
+  left: 0%;
+  padding: 0;
+}
+
+.sign-in-up {
+  padding-left: 40%;
+}
+
+.header-background {
+  background-image: url("../img/nebula-2560x1440-space-stars-4k-6592.jpg");
+}
+
+.bottom-nav-text {
+  color: #0560aa;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* a {
+  text-decoration: none;
+  color: #0560aa;
+} */
