@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <title>nebula-home[1]</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/css/styles.min2.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+  </head>
+
+  <body style="font-family: Raleway, sans-serif; font-size: 16px">
+
+    <!--Top NavBar Start-->
+    <div class="container-fluid header-background">
+      <div class="row">
+        sign in up
+      </div>
+      <div class="row">
+        <nav class="navbar navbar-expand-lg bg-transparent navbar-dark">
+          <div class="container-fluid" style="padding-left: 0;">
+            <a class="navbar-brand" href="#">
+              <img src="assets/img/logo.jpg" width="auto" height="80px" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+              aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav mx-xl-5 px-xxl-4">
+                <a class="nav-link active px-lg-2 mx-xl-2 mx-xxl-4" aria-current="page" href="#">Courses</a>
+                <a class="nav-link px-lg-2 mx-xl-2 mx-xxl-4" href="#">Study Centers</a>
+                <a class="nav-link px-lg-2 mx-xl-2 mx-xxl-4" href="#">Life at Nebula</a>
+                <a class="nav-link px-lg-2 mx-xl-2 mx-xxl-4" href="#">News and Events</a>
+                <a class="nav-link px-lg-2 mx-xl-2 mx-xxl-4" href="#">About Us</a>
+                <a class="nav-link px-lg-2 mx-xl-2 mx-xxl-4" href="#">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <!-- top banner start-->
+      <div class="row top-banner">
+        <img src="assets/img/SLT-NEBULA-HOME.png" class="logo">
+        <img src="assets/img/curves_03.png" class="banner-spiral-image d-none d-md-block">
+      </div>
+      <!-- top banner end-->
+    </div>
+    <!--Top Nav bar end-->
+
+    <!-- Botom Nav  bar -->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-4 col-lg-3">
+          <a href="" class="bottom-nav-text">
+            <span>How to Apply</span>
+            <i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+        <div class="col-4 col-lg-3">
+          <a href="" class="bottom-nav-text">
+            <span>How to Apply</span>
+            <i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+        <div class="col-4 col-lg-3">
+          <a href="" class="bottom-nav-text">
+            <span>How to Apply</span>
+            <i class="bi bi-arrow-right-circle-fill"></i></a>
+        </div>
+      </div>
+    </div>
+    <!-- Botom Nav  bar end-->
+
+
+    <!-- Upcoming courses -->
+    <!-- <div class="container">
+      <div class="row">
+        <div class="upcoming-course position-absolute">
+          <div class="upcoming-course-in">
+            <div class="uc-box-title">
+              <h5 class="text-center text-white" style="font-weight: bold">Upcoming Courses</h5>
+            </div>
+            <h1>Electrical &amp; Electronic</h1>
+            <p>Provides high quality knowledge and skills in a broad range of topics necessary for professional
+              electrical and electronics engineers.</p>
+            <button>Apply Now</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--Upcomming courses-->
+
+
+    <!-- Section -->
+    <section class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="row">
+            <!-- Description Start-->
+            <div class="col-12">
+              <p style="font-size: 25px">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's
+                standard dummy text ever since the
+                1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It
+                has
+                survived not only five centuries, but
+              </p>
+            </div>
+            <!-- Description End-->
+
+            <!-- Employee Cards Start-->
+            <!-- First row Card Start-->
+            <div class="col-md-6 mx-5 mx-md-0">
+              <div class="employee-card">
+                <div class="employee-card-top"></div>
+                <div class="employee-card-circle">
+                  <img class="employee-card-circle-image" src="assets/img/profile pic/tst.webp">
+                </div>
+                <div class="employeDetails">
+                  <div class="employeeFirstName">Amaya Fernando</div>
+                  <div class="employeeDesignation">Head of IT Department</div>
+                  <div class="employeeDept">IT Department</div>
+                  <div class="employee-phone-mail">
+                    <i class="bi bi-phone-fill"></i>
+                    <span>+94 11 999 1111</span>
+                    <span>|</span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rbr@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 employee-card-description mx-5 mx-md-0" id="first-card-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+              et dolore magna
+              aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+              consequat. Duis
+              aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </div>
+            <!-- first row Card End -->
+
+            <!-- Card Start-->
+            <div class="col-md-6 mx-5 mx-md-0">
+              <div class="employee-card">
+                <div class="employee-card-top"></div>
+                <div class="employee-card-circle">
+                  <img class="employee-card-circle-image" src="assets/img/profile pic/tst.jpeg">
+                </div>
+                <div class="employeDetails">
+                  <div class="employeeFirstName">Sankalpa Gunasekara</div>
+                  <div class="employeeDesignation">Head of IT Department</div>
+                  <div class="employeeDept">IT Department</div>
+                  <div class="employee-phone-mail">
+                    <i class="bi bi-phone-fill"></i>
+                    <span>+94 11 999 1111</span>
+                    <span>|</span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rbr@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <!-- Card End -->
+            <!-- Card Start-->
+            <div class="col-md-6 mx-5 mx-md-0">
+              <div class="employee-card">
+                <div class="employee-card-top"></div>
+                <div class="employee-card-circle">
+                  <img class="employee-card-circle-image" src="assets/img/profile pic/tst2.webp">
+                </div>
+                <div class="employeDetails">
+                  <div class="employeeFirstName">Amaya Fernando</div>
+                  <div class="employeeDesignation">Head of IT Department</div>
+                  <div class="employeeDept">IT Department</div>
+                  <div class="employee-phone-mail">
+                    <i class="bi bi-phone-fill"></i>
+                    <span>+94 11 999 1111</span>
+                    <span>|</span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rbr@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <!-- Card End -->
+
+            <!-- Card Start-->
+            <div class="col-md-6 mx-5 mx-md-0">
+              <div class="employee-card">
+                <div class="employee-card-top"></div>
+                <div class="employee-card-circle">
+                  <img class="employee-card-circle-image" src="assets/img/profile pic/tst3.jpg">
+                </div>
+                <div class="employeDetails">
+                  <div class="employeeFirstName">Sankalpa Gunasekara</div>
+                  <div class="employeeDesignation">Head of IT Department</div>
+                  <div class="employeeDept">IT Department</div>
+                  <div class="employee-phone-mail">
+                    <i class="bi bi-phone-fill"></i>
+                    <span>+94 11 999 1111</span>
+                    <span>|</span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rbr@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <!-- Card End -->
+            <!-- Card Start-->
+            <div class="col-md-6 mx-5 mx-md-0">
+              <div class="employee-card">
+                <div class="employee-card-top"></div>
+                <div class="employee-card-circle">
+                  <img class="employee-card-circle-image" src="assets/img/profile pic/tst.webp">
+                </div>
+                <div class="employeDetails">
+                  <div class="employeeFirstName">Sankalpa Gunasekara</div>
+                  <div class="employeeDesignation">Head of IT Department</div>
+                  <div class="employeeDept">IT Department</div>
+                  <div class="employee-phone-mail">
+                    <i class="bi bi-phone-fill"></i>
+                    <span>+94 11 999 1111</span>
+                    <span>|</span>
+                    <i class="bi bi-envelope-fill"></i>
+                    <span>rbr@gmail.com</span>
+                  </div>
+                </div>
+              </div>
+              <div class="employee-card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore
+                et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+            </div>
+            <!-- Card End -->
+            <!-- Employee Cards End -->
+          </div>
+        </div>
+
+        <!-- Side circle start -->
+        <div class="col-lg-3 d-none d-lg-block">
+          <img src="assets/img/about-us-back.jpg">
+          <img src="assets/img/about-set-circles.png" class="circle-set-img">
+        </div>
+        <!-- Side circle end -->
+
+        <!-- Uncomment the following lines to add circles created using css -->
+
+        <!-- Side circle images start-->
+        <!-- <div class="col-lg-3 d-none d-lg-block side-circle-container"> -->
+        <!-- <div class="side-circle-one"></div> -->
+        <!-- <img src="assets/img/nebula-2560x1440-space-stars-4k-6592.jpg" class="side-circle-one">
+          <img src="assets/img/nebula-2560x1440-space-stars-4k-6592.jpg" class="side-circle-two">
+          <img src="assets/img/nebula-2560x1440-space-stars-4k-6592.jpg" class="side-circle-three">
+        </div> -->
+        <!-- Side circle images end-->
+
+      </div>
+    </section>
+    <!-- Section End -->
+
+    <!--Footer-->
+    <footer class="container-fluid mt-5 p-5 custom-footer">
+      Footer content goes here
+      <div class="row mt-5">
+        <div class="col-3">
+          <img src="assets/img/SLT-NEBULA-HOME.jpg" alt="banner" style="width: 350px" />
+        </div>
+        <div class="col-3">
+          <div class="row offset-2">
+            <div class="col">
+              <div class="vstack gap-4">
+                <a href="" class="footer-link">Courses</a>
+                <a href="" class="footer-link">Study Centers</a>
+                <a href="" class="footer-link">Life at Nebula</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="vstack gap-4">
+                <a href="" class="footer-link">News & Events</a>
+                <a href="" class="footer-link">About Us</a>
+                <a href="" class="footer-link">Contact Us</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="vstack gap-2">
+            <div style="display: flex; align-items: center; justify-content: center; flex-direction: column">
+              <div class="hstack gap-5 mb-3 justify-content-center">
+                <i class="fa fa-facebook" aria-hidden="true" style="color: white"></i>
+                <i class="fa fa-instagram" aria-hidden="true" style="color: white"></i>
+                <i class="fa fa-whatsapp" aria-hidden="true" style="color: white"></i>
+                <i class="fa fa-linkedin" aria-hidden="true" style="color: white"></i>
+                <i class="fa fa-youtube" aria-hidden="true" style="color: white"></i>
+                <i class="fa fa-twitter" aria-hidden="true" style="color: white"></i>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63381.85274754356!2d79.87706782778876!3d6.8466778555178465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25a44e52d42bf%3A0x919449f9c6f8b403!2sSri%20Lanka%20Telecom%20-%20Nugegoda!5e0!3m2!1sen!2slk!4v1682847970261!5m2!1sen!2slk"
+                width="100%" height="80" style="border: 0" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--Footer End-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+      $("#study-carousal").owlCarousel({
+        loop: true,
+        margin: 10,
+        rewind: true,
+        autoplay: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          800: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+
+      // Go to the next item
+      $("#study-carousal-NextBtn").click(function () {
+        $("#study-carousal").trigger("next.owl.carousel");
+      });
+      // Go to the previous item
+      $("#study-carousal-PrevBtn").click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        $("#study-carousal").trigger("prev.owl.carousel", [300]);
+      });
+    </script>
+    <script>
+      $("#stories-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        rewind: true,
+        dots: true,
+        autoplay: false,
+
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 3,
+          },
+          1300: {
+            items: 5,
+          },
+        },
+      });
+
+      // Go to the next item
+      $("#stories-carousel-NextBtn").click(function () {
+        $("#stories-carousel").trigger("next.owl.carousel");
+      });
+      // Go to the previous item
+      $("#stories-carousel-PrevBtn").click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        $("#stories-carousel").trigger("prev.owl.carousel", [300]);
+      });
+    </script>
+  </body>
+
+</html>
