@@ -70,87 +70,100 @@
     <!--Heading nav-->
     <div class="container my-5">
       <div class="row">
-        <div class="col-sm-12 col-md-3">
-          <a href="" class="heading-link">
-            <div class="hstack gap-2">
-              <h3>How to apply</h3>
-              <i class="fa fa-arrow-circle-right heading-link-icon" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <a href="" class="heading-link">
-            <div class="hstack gap-2">
-              <h3>Why choose us</h3>
-              <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
-        <div class="col-sm-12 col-md-3">
-          <a href="" class="heading-link">
-            <div class="hstack gap-2">
-              <h3>Explore SLTTC</h3>
-              <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
-            </div>
-          </a>
-        </div>
-        <!-- <div class="col">
-          <div class="upcoming-course position-absolute">
-            <div class="upcoming-course-in">
-              <div class="uc-box-title">
-                <h5 class="text-center text-white" style="font-weight: bold">Upcoming Courses</h5>
+        <div class="col-sm-3 col-md-6 col-lg-8 mb-sm=5">
+          <div class="hstack gap-sm-3 gap-md-5 justify-content-between">
+            <a href="" class="heading-link">
+              <div class="hstack gap-2">
+                <h5>How to apply</h5>
+                <i class="fa fa-arrow-circle-right heading-link-icon" aria-hidden="true"></i>
               </div>
-              <h1>Electrical &amp; Electronic</h1>
-              <p>Provides high quality knowledge and skills in a broad range of topics necessary for professional electrical and electronics engineers.</p>
-              <button>Apply Now</button>
+            </a>
+            <a href="" class="heading-link">
+              <div class="hstack gap-2">
+                <h5>Why choose us</h5>
+                <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
+              </div>
+            </a>
+            <a href="" class="heading-link">
+              <div class="hstack gap-2 align-items-baseline">
+                <h5>Explore SLTTC</h5>
+                <i class="fa fa-arrow-circle-o-right heading-link-icon" aria-hidden="true"></i>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-12 col-lg-4 mt-sm-5">
+          <div class="upcoming-cource-center">
+            <div class="upcoming-course">
+              <div class="upcoming-course-in">
+                <div class="uc-box-title">
+                  <h5 class="text-center text-white" style="font-weight: bold">Upcoming Courses</h5>
+                </div>
+                <h2>Electrical &amp; Electronic</h2>
+                <p>Provides high quality knowledge and skills in a broad range of topics necessary for professional electrical and electronics engineers.</p>
+                <hr style="color: white" />
+                <div class="upcoming-course-date-text">
+                  <p style="font-size: 16px">Starting On-1<sup>st</sup>April 2023</p>
+                </div>
+                <div class="upcoming-cource-button-box">
+                  <button>Apply Now</button>
+                </div>
+              </div>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
     </div>
     <!--Heading nav end-->
 
     <!--Study with us-->
-    <section class="container">
+    <section class="container study-with-align">
       <div class="row">
-        <div class="col-sm-12 col-md-6">
-          <p class="section-header">Study with us</p>
-          <p>
+        <div class="col-sm-12 col-md-4">
+          <p style="font-size: 22px; font-weight: 700">Study with us</p>
+          <p style="font-size: 25px">
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
             1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-            also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-8">
+          <!--Custom carousal btn start-->
           <div class="hstack justify-content-end my-2">
-            <button type="button" class="circuler-button mx-2 customNextBtn">
+            <button type="button" id="study-carousal-NextBtn" class="circuler-button mx-2">
               <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
             </button>
-            <button type="button" class="circuler-button mx-2 customPrevBtn">
+            <button type="button" id="study-carousal-PrevBtn" class="circuler-button mx-2">
               <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
             </button>
           </div>
+          <!--Custom carousal btn end-->
           <div class="row">
-            <div class="owl-carousel">
+            <div id="study-carousal" class="owl-carousel">
               <div class="col">
-                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
                   <p class="study-with-heading">B Eng Degree</p>
-                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <p class="card-rounded-description">
+                    Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC
+                  </p>
                   <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
                 </div>
               </div>
               <div class="col">
-                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
                   <p class="study-with-heading">Tex Eng Degree</p>
-                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <p class="card-rounded-description">
+                    Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC
+                  </p>
                   <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
                 </div>
               </div>
               <div class="col">
-                <div class="p-3 mb-5 bg-body-tertiary rounded">
+                <div class="p-4 mb-5 mx-md-2 bg-body-tertiary card-rounded">
                   <p class="study-with-heading">Val Eng Degree</p>
-                  <p>Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC</p>
+                  <p class="card-rounded-description">
+                    Sri Lanka Teleom Training entre in collboration with the University of Hertfordshire (UK) now offer UGC
+                  </p>
                   <img src="assets/img/affliationslogo/pngegg (5).png" width="50" />
                 </div>
               </div>
@@ -163,74 +176,74 @@
 
     <!--Student Stories-->
 
-    <section class="container mt-5">
-      <p class="section-header">Student Stories</p>
-      <div class="row">
-        <div class="hstack justify-content-end my-2 col-6">
-          <button type="button" class="circuler-button mx-2 customNextBtn">
-            <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
-          </button>
-          <button type="button" class="circuler-button mx-2 customPrevBtn">
-            <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
-          </button>
+    <section class="student-stories-bg">
+      <div class="container mt-5">
+        <!--Custom carousal btn start-->
+        <div class="hstack justify-content-between my-2 align-items-baseline">
+          <p class="section-header">Student Stories</p>
+          <div>
+            <button type="button" id="stories-carousel-NextBtn" class="circuler-button mx-2">
+              <i class="fa fa-arrow-left" aria-hidden="true" style="font-size: small"></i>
+            </button>
+            <button type="button" id="stories-carousel-PrevBtn" class="circuler-button mx-2">
+              <i class="fa fa-arrow-right" aria-hidden="true" style="font-size: small"></i>
+            </button>
+          </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="owl-carousel">
-          <div class="row">
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(247, 200, 71)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+      <!--Custom carousal btn end-->
+      <div class="container-fluid overflow-hidden">
+        <div class="row student-stories-carousal">
+          <div id="stories-carousel" class="owl-carousel">
+            <div class="col-12 stories-card-one">
+              <p class="stories-card-details">The foundation year has been great for me to build my subject knowledge and confident</p>
+              <p class="">
+                <b class="stories-designation">Electrical Engineer <span>1st year</span></b>
+              </p>
+              <p class="stories-char-name">Thisera Fernando</p>
+              <div class="stories-card-image-container">
+                <div class="stories-card-circle-one"></div>
+                <img class="stories-card-image" src="assets\img\studentstory\student1.png" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(255, 156, 161)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+            <div class="col-12 stories-card-two">
+              <p class="stories-card-details">The Foundation year has been great for me to build my subject knowledge and confident</p>
+              <p class="">
+                <b class="stories-designation">Electrical Engineer <span>1st year</span></b>
+              </p>
+              <p class="stories-char-name">Thisera Fernando</p>
+              <div class="stories-card-image-container">
+                <div class="stories-card-circle-two"></div>
+                <img class="stories-card-image" src="assets\img\studentstory\student1.png" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(188, 236, 148)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+            <div class="col-12 stories-card-three">
+              <p class="stories-card-details">The Foundation year has been great for me to build my subject knowledge and confident</p>
+              <p class="">
+                <b class="stories-designation">Electrical Engineer <span>1st year</span></b>
+              </p>
+              <p class="stories-char-name">Thisera Fernando</p>
+              <div class="stories-card-image-container">
+                <div class="stories-card-circle-three"></div>
+                <img class="stories-card-image" src="assets\img\studentstory\student2.png" />
               </div>
             </div>
-            <div class="col-3">
-              <div class="p-3 mb-5 rounded-5" style="background-color: rgb(93, 231, 231)">
-                <div class="row">
-                  <p>The foundation year has been great for me to build my subject knowledge and confident</p>
-                  <p class="mb-0"><b>Electrical Engineer</b></p>
-                  <p style="font-size: 12px">Thisera Fernando</p>
-                </div>
-                <div class="row my-5">
-                  <!-- <img src="assets\img\SLT-NEBULA-HOME.jpg" /> -->
-                </div>
+            <div class="col-12 stories-card-four">
+              <p class="stories-card-details">The Foundation year has been great for me to build my subject knowledge and confident</p>
+              <p class="">
+                <b class="stories-designation">Electrical Engineer <span>1st year</span></b>
+              </p>
+              <p class="stories-char-name">Thisera Fernando</p>
+              <div class="stories-card-image-container">
+                <div class="stories-card-circle-four"></div>
+                <img class="stories-card-image" src="assets\img\studentstory\student1.png" />
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!--Student Stories End-->
 
     <!--our Affilation-->
@@ -256,74 +269,75 @@
         <div class="col-sm-12 col-md-6">
           <p class="section-header">Frequently Asked Question</p>
           <div class="accordion" id="accordionExample">
-            <!--Accordion item one-->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseOne"
-                  aria-expanded="true"
-                  aria-controls="collapseOne"
-                >
-                  I am part-way through my course and want to take a year out -what should i do?
-                </button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that
-                  we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                  modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+            <div class="accordion" id="accordionExample">
+              <!--Accordion item one-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    I am part-way through my course and want to take a year out -what should i do?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes
+                    that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                    can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--Accordion item two-->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button collapsed ms-auto"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseTwo"
-                  aria-expanded="false"
-                  aria-controls="collapseTwo"
-                  style="width: 100%"
-                >
-                  Can you work while studying
-                </button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes
-                  that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You
-                  can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+              <!--Accordion item two-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can you work while studying
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes
+                    that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                    can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
                 </div>
               </div>
-            </div>
-            <!--Accordion item three-->
-            <div class="accordion-item">
-              <h2 class="accordion-header">
-                <button
-                  class="accordion-button me-auto"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseThree"
-                  aria-expanded="true"
-                  aria-controls="collapseThree"
-                  style="width: 100% !important"
-                >
-                  Is distance learning avaliable at graduate level?
-                </button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that
-                  we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can
-                  modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
-                  <code>.accordion-body</code>, though the transition does limit overflow.
+              <!--Accordion item three-->
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed d-flex justify-content-between align-items-center"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    style="width: 100%"
+                    aria-controls="collapseThree"
+                  >
+                    Is distance learning avaliable at graduate level?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes
+                    that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You
+                    can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within
+                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
                 </div>
               </div>
             </div>
@@ -337,7 +351,7 @@
     <section class="container mt-5">
       <p class="section-header">News and Events</p>
       <div class="row">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="row">
             <div class="col-5">
               <img
@@ -345,15 +359,15 @@
                 src="https://images.unsplash.com/photo-1682205595406-0978ff7b7709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               />
             </div>
-            <div class="col-5">
-              <div class="col align-self-start my-2"><span class="badge bg-warning">News</span></div>
+            <div class="col-4">
+              <div class="col align-self-start my-2"><span class="badge news-badge">News</span></div>
               <div class="col align-self-start my-2">
                 <a href="" class="news-events-anchor">SLT-MOBITEL Customer Club Kandy supports children's education and well-being</a>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="row">
             <div class="col-5">
               <img
@@ -361,7 +375,7 @@
                 src="https://images.unsplash.com/photo-1682205595406-0978ff7b7709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               />
             </div>
-            <div class="col-5">
+            <div class="col-4">
               <div class="col align-self-start my-2"><span class="badge bg-success">Event</span></div>
               <div class="col align-self-start my-2">
                 <a href="" class="news-events-anchor">SLT-MOBITEL Customer Club Kandy supports children's education and well-being</a>
@@ -369,7 +383,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-12 col-lg-4">
           <div class="row">
             <div class="col-5">
               <img
@@ -377,8 +391,8 @@
                 src="https://images.unsplash.com/photo-1682205595406-0978ff7b7709?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
               />
             </div>
-            <div class="col-5">
-              <div class="col align-self-start my-2"><span class="badge bg-warning">News</span></div>
+            <div class="col-4">
+              <div class="col align-self-start my-2"><span class="badge news-badge">News</span></div>
               <div class="col align-self-start my-2">
                 <a href="" class="news-events-anchor">SLT-MOBITEL Customer Club Kandy supports children's education and well-being</a>
               </div>
@@ -391,29 +405,27 @@
     <!--Footer-->
     <footer class="container-fluid mt-5 p-sm-3 p-5 custom-footer">
       <!-- Footer content goes here -->
-      <div class="row mt-md-5 justify-content-start">
-        <div class="col-sm-12 col-md-3 justify-content-center">
-          <img src="assets/img/SLT-NEBULA-HOME.jpg" alt="banner" style="width: 50%" />
+      <div class="row mt-md-5 mb-5">
+        <div class="col-sm-12 col-md-3 mt-md-5 mb-5">
+          <div style="display: flex; justify-content: center">
+            <img src="assets/img/SLT-NEBULA-HOME.png" alt="banner" style="width: 75%" />
+          </div>
         </div>
-        <div class="col-sm-12 col-md-3 mt-5 justify-content-center">
-          <div class="row offset-2">
-            <div class="col">
-              <div class="vstack gap-4">
-                <a href="" class="footer-link">Courses</a>
-                <a href="" class="footer-link">Study Centers</a>
-                <a href="" class="footer-link">Life at Nebula</a>
-              </div>
+        <div class="col-sm-12 col-md-3 mt-md-5 mt-sm-5 mb-5">
+          <div style="display: flex; justify-content: space-between">
+            <div class="vstack gap-4">
+              <a href="" class="footer-link">Courses</a>
+              <a href="" class="footer-link">Study Centers</a>
+              <a href="" class="footer-link">Life at Nebula</a>
             </div>
-            <div class="col">
-              <div class="vstack gap-4">
-                <a href="" class="footer-link">News & Events</a>
-                <a href="" class="footer-link">About Us</a>
-                <a href="" class="footer-link">Contact Us</a>
-              </div>
+            <div class="vstack gap-4">
+              <a href="" class="footer-link">News & Events</a>
+              <a href="" class="footer-link">About Us</a>
+              <a href="" class="footer-link">Contact Us</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-3 mt-5">
+        <div class="col-sm-12 col-md-3 mt-md-5 mt-sm-5">
           <div class="vstack gap-2">
             <div style="display: flex; align-items: center; justify-content: center; flex-direction: column">
               <div class="hstack gap-5 mb-3 justify-content-center">
@@ -448,17 +460,49 @@
     <script src="jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script>
-      $(".owl-carousel").owlCarousel({
+      $("#study-carousal").owlCarousel({
         loop: true,
         margin: 10,
-        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+        rewind: true,
+        autoplay: false,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 2,
+          },
+          800: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+
+      // Go to the next item
+      $("#study-carousal-NextBtn").click(function () {
+        $("#study-carousal").trigger("next.owl.carousel");
+      });
+      // Go to the previous item
+      $("#study-carousal-PrevBtn").click(function () {
+        // With optional speed parameter
+        // Parameters has to be in square bracket '[]'
+        $("#study-carousal").trigger("prev.owl.carousel", [300]);
+      });
+    </script>
+    <script>
+      $("#stories-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
         rewind: true,
         dots: true,
         autoplay: false,
 
         responsive: {
           0: {
-            items: 2,
+            items: 1,
           },
           600: {
             items: 3,
@@ -466,19 +510,21 @@
           1000: {
             items: 3,
           },
+          1300: {
+            items: 5,
+          },
         },
       });
-      var owl = $(".owl-carousel");
-      owl.owlCarousel();
+
       // Go to the next item
-      $(".customNextBtn").click(function () {
-        owl.trigger("next.owl.carousel");
+      $("#stories-carousel-NextBtn").click(function () {
+        $("#stories-carousel").trigger("next.owl.carousel");
       });
       // Go to the previous item
-      $(".customPrevBtn").click(function () {
+      $("#stories-carousel-PrevBtn").click(function () {
         // With optional speed parameter
         // Parameters has to be in square bracket '[]'
-        owl.trigger("prev.owl.carousel", [300]);
+        $("#stories-carousel").trigger("prev.owl.carousel", [300]);
       });
     </script>
   </body>

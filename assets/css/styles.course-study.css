@@ -1,0 +1,75 @@
+.city-card {
+  width: 250px;
+  border-radius: 30px;
+  border: 1px solid rgb(42, 176, 237);
+  transition: all 0.2s ease-in-out;
+  box-shadow: 1.2px 0.3px 1.9px rgba(0, 0, 0, 0.16),
+    3.3px 0.9px 5.3px rgba(0, 0, 0, 0.17),
+    7.8px 2.1px 12.7px rgba(0, 0, 0, 0.189), 26px 7px 42px rgba(0, 0, 0, 0.22);
+}
+
+.city-card-selected {
+  transform: scale(1.2);
+}
+
+.background-style {
+  background: rgb(42, 176, 237);
+  background: linear-gradient(
+    90deg,
+    rgba(42, 176, 237, 1) 35%,
+    rgba(42, 75, 182, 1) 100%
+  );
+}
+
+.chat-img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.benifits-list {
+  list-style: none;
+  margin: 0;
+  position: relative;
+  &:before {
+    display: inline-block;
+    width: 2px;
+    background: linear-gradient(107.41deg, #51d3f4 0%, #003fcc 100%);
+    position: absolute;
+    left: 35px;
+    top: 12px;
+    height: calc(100% - 25rem);
+  }
+}
+
+.benifits-list-item {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 15px;
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(107.41deg, #51d3f4 0%, #003fcc 100%);
+    border: 2px solid;
+    border-color: #ffffff;
+    position: absolute;
+    left: -3.5px;
+    top: 5px;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .full-width {
+    width: 100% !important;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  .container,
+  .container-sm {
+    max-width: 100% !important;
+  }
+}
