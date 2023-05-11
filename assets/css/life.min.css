@@ -176,12 +176,12 @@
   text-decoration: underline;
 }
 
-/* .bg-custom {
-  background-image: url(../img/life-bg.png);
+.bg-custom {
+  background-image: url(../img/commonBg.png);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
-} */
+}
 
 /*underline style*/
 .start-underline {
@@ -202,10 +202,10 @@
   background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(3, 3, 184, 1) 100%, rgba(2, 0, 36, 1) 100%);
 }
 /*secton para style*/
-.para-style{
-    text-align: justify;
-    margin-top: 20px;
-    margin-bottom: 20px;
+.para-style {
+  text-align: justify;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 @media only screen and (max-width: 1250px) {
   .custom-footer::before {
@@ -241,7 +241,5 @@
     left: 100px;
     width: 100px;
     height: 5px;
-
-  
-}
+  }
 }
