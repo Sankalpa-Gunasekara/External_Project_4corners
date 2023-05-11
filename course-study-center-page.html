@@ -21,7 +21,9 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link rel="stylesheet" href="assets/css/styles.course-study.css" />
     <link rel="stylesheet" href="assets/css/styles.min.css" />
+    <link rel="stylesheet" href="assets/css/navbar.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
@@ -30,7 +32,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
     />
-    <link rel="stylesheet" href="assets/css/styles.course-study.css" />
   </head>
 
   <body style="font-family: Raleway, sans-serif; font-size: 16px">
@@ -43,88 +44,75 @@
       "
     >
       <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-9 col-lg-9 col-xl-10" style="padding: 0">
-            <nav class="navbar navbar-light navbar-expand-md">
-              <div class="container-fluid">
-                <a class="navbar-brand logo" href="#"
-                  ><img src="assets/img/logo.jpg" /></a
-                ><button
-                  data-toggle="collapse"
-                  class="navbar-toggler"
-                  data-target="#navcol-1"
-                >
-                  <span class="sr-only">Toggle navigation</span
-                  ><span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                  class="collapse navbar-collapse d-inline-flex flex-fill align-items-xl-center"
-                  id="navcol-1"
-                >
-                  <ul
-                    class="nav navbar-nav d-flex d-xl-flex flex-row flex-grow-1 flex-shrink-1 flex-fill justify-content-between align-content-stretch align-self-stretch mx-auto justify-content-xl-start align-items-xl-center"
+        <!-- Navbar -->
+        <div id="navbar-wrapper">
+          <nav class="navbar navbar-expand-xl">
+            <div class="container-fluid pe-0 ps-0">
+              <a class="navbar-brand" href="./index.html">
+                <img
+                  src="/assets/img/logo.jpg"
+                  alt="nebula-logo"
+                  width="260px"
+                  height="70px"
+                />
+              </a>
+              <button
+                class="navbar-toggler shadow-none"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./courses-page.html"
+                    >Courses</a
                   >
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" href="courses-page.html"
-                        >Courses</a
-                      >
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="course-study-page.html"
-                        >Study Centers</a
-                      >
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="course-life-page.html"
-                        >Life At Nebula</a
-                      >
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="#">News And Events</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="about-us-page.html">About Us</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" href="contact-us-page.html"
-                        >Contact Us</a
-                      >
-                    </li>
-                    <li class="nav-item dropdown d-md-none">
-                      <a
-                        class="dropdown-toggle nav-link"
-                        data-toggle="dropdown"
-                        aria-expanded="false"
-                        href="#"
-                        >Dropdown
-                      </a>
-                      <div class="dropdown-menu" role="menu">
-                        <a class="dropdown-item" role="presentation" href="#"
-                          >First Item</a
-                        ><a class="dropdown-item" role="presentation" href="#"
-                          >Second Item</a
-                        ><a class="dropdown-item" role="presentation" href="#"
-                          >Third Item</a
-                        >
-                      </div>
-                    </li>
-                  </ul>
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./course-study-center-page.html"
+                    >Study Centers</a
+                  >
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./course-life-page.html"
+                    >Life At Nebula</a
+                  >
+                  <a class="nav-link pt-1 ps-1 pe-1 pb-1" href="#"
+                    >News And Events</a
+                  >
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./about-us-page.html"
+                    >About Us</a
+                  >
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./contact-us-page.html"
+                    >Contact Us</a
+                  >
+                </div>
+                <div class="navbar-nav ms-auto">
+                  <a
+                    class="nav-link pt-1 ps-1 pe-1 pb-1"
+                    href="./courses-page.html"
+                    >Register</a
+                  >
+                  <a
+                    class="nav-link pt-1 ps-2 pe-2 pb-1 bg-primary sign-in"
+                    href="./course-study-center-page.html"
+                    >Sign in</a
+                  >
                 </div>
               </div>
-            </nav>
-          </div>
-          <div
-            class="col-md-3 col-lg-3 col-xl-2 d-lg-flex d-xl-flex justify-content-lg-end align-items-lg-center align-items-xl-center"
-          >
-            <ul class="nav nav-pills my-account-links" style="font-size: 12px">
-              <li class="nav-item">
-                <a class="nav-link text-white" href="#">Register</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-white bg-primary" href="#">Sign In</a>
-              </li>
-            </ul>
-          </div>
+            </div>
+          </nav>
         </div>
       </div>
       <!--NavBar End-->
@@ -207,7 +195,6 @@
       </div>
     </div>
     <!--Heading nav end-->
-
     <!-- city cards -->
     <section class="pb-5">
       <div
@@ -276,31 +263,36 @@
         </div>
         <div class="col-12 col-lg-7 z-3">
           <p>
-            Moratuwa Lorem Ipsum, Lorem Ipsum and others have named themselves
-            the Image Library as the Image Library of the Internet Standard
-            Lorem Ipsum, Lorem Ipsum and others have named themselves
+            Established in 1973, the Moratuwa Training centre is the first
+            training centre of SLT. The training Centre is located, in
+            Horethuduwa along Old Galle Road and is easily accessible from
+            Kalutara, Piliyandala and Colombo.
           </p>
           <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
+            Moratuwa Training Centre has all required facilities including
+            Laboratories , Classrooms, Auditorium, Library and Administration
+            office. It also has a hostel and Playground facilities for Cricket,
+            Volley Ball, Badminton and indoor games such as Table Tennis, Carom
+            and Chess’. Gymnasium also available for students use.
           </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <div>
+          <div class="row mt-4">
+            <div class="col item-button-one">
+              <button id="facilities-one" class="item-button">
+                <span>FACILITIES</span>
+              </button>
+            </div>
+            <div class="col item-button-two">
+              <button id="courses-one" class="item-button">
+                <span>COURSES</span>
+              </button>
+            </div>
+            <div class="col item-button-three">
+              <button id="our-team-one" class="item-button">
+                <span>OUR TEAM</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-5">
             <img
               src="assets/img/upcoming-bg.jpg"
               alt="image"
@@ -308,44 +300,114 @@
               height="2.5px"
             />
           </div>
-          <div class="text-center">
-            <h4 class="mb-0">
-              Benefits of training with us at SLT Training Center
-            </h4>
-            <img
-              src="assets/img/upcoming-bg.jpg"
-              alt="image"
-              width="110px"
-              height="2.5px"
-            />
-          </div>
-          <div>
+          <div id="facilities-content-one" class="mt-4 d-none">
+            <h5 class="fac-heading">Computer use & Internet access</h5>
             <ul class="benifits-list">
               <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
+                Moratuwa Training Centre consists of three fully air conditioned
+                computer labs for general computer trainings - two with 25 work
+                stations and the other with 10 work stations.
               </li>
               <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
+                All three labs are fully networked and have high speed internet
+                connectivity via SLT Broadband.
               </li>
             </ul>
+            <h5 class="fac-heading">Laboratory facilities</h5>
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Optical Fiber lab
+                <ul>
+                  <li>
+                    Moratuwa Training Centre consists of a fully air conditioned
+                    lab facility for Optical Fiber cabling trainings. This
+                    Optical Fiber lab is equipped with Splicing machines,
+                    Optical Time-Domain Reflectometer, Power meter, different
+                    types of OF cables and OF Closures.
+                  </li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                Outside plant training bay
+                <ul>
+                  <li>
+                    Moratuwa Training Centre consists of an Outside plant
+                    training bay and lab facility for Outside plant Copper
+                    cabling trainings. This Outside plant training bay and lab
+                    facility is equipped with equipments, tools and materials
+                    used for laying, jointing and enclosing of both aerial and
+                    underground copper cables.
+                  </li>
+                  <li>
+                    These lab facilities are furnished in the optimum way
+                    possible to reflect a pleasant as well as dynamic and modern
+                    environment, whilst ensuring comfort and complying with
+                    health standards.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h5 class="fac-heading">Auditorium</h5>
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                The Auditorium at Moratuwa Training Centre with a capacity of 70
+                seats is fully air conditioned and equipped with a surround
+                sound system with clip-on mic, multimedia projector with a
+                screen, a podium, flip chart board and white board.
+              </li>
+            </ul>
+            <h5 class="fac-heading">Library</h5>
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Library at Moratuwa Training Centre provides access to more than
+                2000 books on different disciplines such as Telecommunication,
+                Data communication, Mobile communication, Optical Fiber
+                communication, Computer Networks, Electronics, Mathematics, etc.
+              </li>
+            </ul>
+          </div>
+          <div id="courses-content-one" class="mt-4 d-none">
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Technician Certificate in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                Technician Diploma in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                BTEC HND in Electrical /Electronic Engineering (communication)
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Applied Information Technology
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Multimedia Web designing
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Java programming
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Java 2 Enterprise Edition (J2EE)
+              </li>
+              <li class="benifits-list-item">Oracle 10g Database (SQL)</li>
+              <li class="benifits-list-item">PL/SQL</li>
+              <li class="benifits-list-item">
+                Certificate in Introduction to Cables
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Polyethylene Cable Jointing & Closure Technique
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Optical Fibre Cable Splicing & Closure Techniques
+              </li>
+
+              <li class="benifits-list-item">
+                Certificate in Optical Fibre Cable Splicing & Measurements
+              </li>
+            </ul>
+          </div>
+          <div id="our-team-content-one" class="mt-4 d-none">
+            <div id="moratuwa-team"></div>
           </div>
         </div>
       </div>
@@ -374,31 +436,37 @@
         </div>
         <div class="col-12 col-lg-7 z-3">
           <p>
-            Welisara Lorem Ipsum, Lorem Ipsum and others have named themselves
-            the Image Library as the Image Library of the Internet Standard
-            Lorem Ipsum, Lorem Ipsum and others have named themselves
+            Inaugurated in 1988, the Welisara Training Centre is one of our main
+            training centres. Situated in the Welisara, Negombo Road, it is
+            easily accessible from Colombo, Negombo as well as Gampaha.
           </p>
           <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
+            The Welisara Training Centre premises comprise of all required
+            facilities specially designed to ensure a pleasant learning
+            environment. It consists of fully air conditioned labs, classrooms,
+            auditorium, library and administration offices. A hostel facility is
+            also available for students, as well as a large sports ground and an
+            indoor games room to encourage students to take part in sports
+            activities and thus ensuring a vibrant campus life.
           </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <div>
+          <div class="row mt-4">
+            <div class="col item-button-one">
+              <button id="facilities-two" class="item-button">
+                <span>FACILITIES</span>
+              </button>
+            </div>
+            <div class="col item-button-two">
+              <button id="courses-two" class="item-button">
+                <span>COURSES</span>
+              </button>
+            </div>
+            <div class="col item-button-three">
+              <button id="our-team-two" class="item-button">
+                <span>OUR TEAM</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-5">
             <img
               src="assets/img/upcoming-bg.jpg"
               alt="image"
@@ -406,44 +474,131 @@
               height="2.5px"
             />
           </div>
-          <div class="text-center">
-            <h4 class="mb-0">
-              Benefits of training with us at SLT Training Center
-            </h4>
-            <img
-              src="assets/img/upcoming-bg.jpg"
-              alt="image"
-              width="110px"
-              height="2.5px"
-            />
-          </div>
-          <div>
+          <div id="facilities-content-two" class="mt-4">
+            <h5 class="fac-heading">Computer use & Internet access</h5>
             <ul class="benifits-list">
               <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
+                Four fully equipped computer labs with Internet connectivity
+                complying with modern environment and standards.
               </li>
             </ul>
+            <h5 class="fac-heading">Laboratory facilities</h5>
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Data communication with Multi Protocols Label Switching
+                <ul>
+                  <li>
+                    Equipped with all required instruments and facilities to
+                    simulate a practical environment for Routing, Switching and
+                    VOIP trainings ( CISCO,L2 Switching).
+                  </li>
+                  <li>
+                    Equipped with all required instruments and facilities to
+                    simulate a practical environment for the trainings related
+                    to Leased Line Internet, MPLS,CCTV and Advanced Routing
+                    (CISCO).
+                  </li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                Sun Certified Training
+                <ul>
+                  <li>Training facilities for Solaris.</li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                Instrumentation
+                <ul>
+                  <li>
+                    Facilities available for practical assignments in
+                    telecommunication networks with all standard Instruments
+                    required for maintenance.
+                  </li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                Transmission Networks
+                <ul>
+                  <li>
+                    Facilities available for practical assignments in
+                    transmission network technologies such as SDH,PDH and other
+                    IP based technologies.
+                  </li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                PSTN and Switching lab
+                <ul>
+                  <li>
+                    Facilities available for practical assignments in PSTN
+                    telephony and Switching.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <h5 class="fac-heading">Library</h5>
+            <p>
+              The library consists of books and material on a wide range of
+              subjects including Telecommunications, Electrical Engineering,
+              Electronics, Computer Science, Civil Engineering, Mathematics,
+              Management, and English Language.
+            </p>
+            <p>
+              Library Facilities include reference, lending, periodicals and
+              newspapers and audio visual sections. It also maintains a store of
+              of books, reports, circulars, manuals, gray literature,
+              periodicals, data books and standards as well as audio visual
+              materials (VHS, VCD, DVD, audio tapes).
+            </p>
+            <p>Libraries are open on week days 9.00 am to 4.30 pm.</p>
+          </div>
+          <div id="courses-content-two" class="mt-4 d-none">
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Technician Certificate in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                Technician Diploma in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                Advanced Technician Diploma in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                BTEC HND in Electrical /Electronic Engineering (communication)
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Applied Information Technology
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Data Network Administration
+              </li>
+              <li class="benifits-list-item">CISCO Router Configuration</li>
+              <li class="benifits-list-item">
+                Implementation of Computer Networks
+              </li>
+              <li class="benifits-list-item">Modern Electronics</li>
+              <li class="benifits-list-item">Digital Techniques</li>
+              <li class="benifits-list-item">
+                Fundamentals of Microprocessors
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                Synchronous Digital Hierarchy (SDH)
+              </li>
+              <li class="benifits-list-item">Pulse Code Modulation (PCM)</li>
+              <li class="benifits-list-item">
+                Fiber Optic Transmission Systems
+              </li>
+              <li class="benifits-list-item">Digital Microwave Radio</li>
+              <li class="benifits-list-item">Digital Transmission - I</li>
+              <li class="benifits-list-item">Digital Transmission - II</li>
+              <li class="benifits-list-item">Digital Multiplexing</li>
+            </ul>
+          </div>
+          <div id="our-team-content-two" class="mt-4 d-none">
+            <div id="welisara-team"></div>
           </div>
         </div>
       </div>
@@ -471,32 +626,24 @@
           />
         </div>
         <div class="col-12 col-lg-7 z-3">
-          <p>
-            Peradeniya Lorem Ipsum, Lorem Ipsum and others have named themselves
-            the Image Library as the Image Library of the Internet Standard
-            Lorem Ipsum, Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <p>
-            Lorem Ipsum, Lorem Ipsum and others have named themselves the Image
-            Library as the Image Library of the Internet Standard Lorem Ipsum,
-            Lorem Ipsum and others have named themselves
-          </p>
-          <div>
+          <div class="row mt-4">
+            <div class="col item-button-one">
+              <button id="facilities-three" class="item-button">
+                <span>FACILITIES</span>
+              </button>
+            </div>
+            <div class="col item-button-two">
+              <button id="courses-three" class="item-button">
+                <span>COURSES</span>
+              </button>
+            </div>
+            <div class="col item-button-three">
+              <button id="our-team-three" class="item-button">
+                <span>OUR TEAM</span>
+              </button>
+            </div>
+          </div>
+          <div class="mt-5">
             <img
               src="assets/img/upcoming-bg.jpg"
               alt="image"
@@ -504,44 +651,59 @@
               height="2.5px"
             />
           </div>
-          <div class="text-center">
-            <h4 class="mb-0">
-              Benefits of training with us at SLT Training Center
-            </h4>
-            <img
-              src="assets/img/upcoming-bg.jpg"
-              alt="image"
-              width="110px"
-              height="2.5px"
-            />
-          </div>
-          <div>
+          <div id="facilities-content-three" class="mt-4">
+            <h5 class="fac-heading">Computer use & Internet access</h5>
             <ul class="benifits-list">
               <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
-              </li>
-              <li class="benifits-list-item">
-                Lorem Ipsum, Lorem Ipsum and others have named themselves
+                Two fully equipped computer labs with Internet connectivity
+                complying with modern environment and standards.
               </li>
             </ul>
+            <h5 class="fac-heading">Laboratory facilities</h5>
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Copper cabling
+                <ul>
+                  <li>
+                    Equipped with all required instruments and facilities to
+                    simulate a practical environment telecommunication systems &
+                    networks.
+                  </li>
+                </ul>
+              </li>
+              <li class="benifits-list-item">
+                Optical Fiber cabling
+                <ul>
+                  <li>
+                    Consists of all required facilities for Optical Fiber
+                    cabling trainings Including Splicing techniques and optical
+                    fiber maintenance equipments.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div id="courses-content-three" class="mt-4 d-none">
+            <ul class="benifits-list">
+              <li class="benifits-list-item">
+                Technician Certificate in Applied Telecommunication Systems
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Applied Information Technology
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Introduction to Cables
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Polyethylene Cable Jointing & Closure Technique
+              </li>
+              <li class="benifits-list-item">
+                Certificate in Optical Fibre Cable Splicing & Closure Techniques
+              </li>
+            </ul>
+          </div>
+          <div id="our-team-content-three" class="mt-4 d-none">
+            <div id="peradeniya-team"></div>
           </div>
         </div>
       </div>
@@ -557,7 +719,6 @@
       </div>
     </section>
     <!-- course content end -->
-
     <!--Footer-->
     <footer class="container-fluid p-sm-3 p-5 custom-footer">
       <!-- Footer content goes here -->
@@ -642,6 +803,7 @@
       </div>
     </footer>
     <!--Footer End-->
+    <script src="./assets/js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
@@ -718,6 +880,14 @@
         $("#stories-carousel").trigger("prev.owl.carousel", [300]);
       });
     </script>
-    <script src="assets/js/course-study.js"></script>
+    <script src="./assets/js/course-study.js"></script>
+    <script type="module">
+      import WelisaraTeam from "./assets/js/welisara-team.js";
+      import MoratuwaTeam from "./assets/js/moratuwa-team.js";
+      import PeradeniyaTeam from "./assets/js/peradeniya-team.js";
+      $("#welisara-team").html(WelisaraTeam);
+      $("#moratuwa-team").html(MoratuwaTeam);
+      $("#peradeniya-team").html(PeradeniyaTeam);
+    </script>
   </body>
 </html>
