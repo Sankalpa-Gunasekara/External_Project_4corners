@@ -1,0 +1,105 @@
+.custom-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  font-weight: 900;
+  width: 200px !important;
+  color: white !important;
+  font-size: 14px;
+  height: 40px !important;
+  background: rgb(0, 212, 255);
+  margin-left: 20px;
+  background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(3, 3, 184, 1) 100%, rgba(2, 0, 36, 1) 100%);
+}
+
+
+.custom-label-big {
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-weight: 900;
+    width: 250px !important;
+    color: white !important;
+    font-size: 14px;
+    height: 40px !important;
+    background: rgb(0, 212, 255);
+    margin-left: 20px;
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(3, 3, 184, 1) 100%, rgba(2, 0, 36, 1) 100%);
+   
+  }
+  
+
+
+.map-border {
+  border: 2px solid #3593ff !important;
+  border-radius: 20px;
+}
+
+.form-style{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ 
+
+}
+
+/* .form-control{
+    height: 50px;
+    border-radius: 10px !important;
+    padding: 5px;
+  
+} */
+
+input[type="text"] {
+    border-radius: 100px;
+    border: 2px solid; 
+    border-bottom-color: rgb(0, 162, 255);
+    border-top-color: rgb(95, 118, 248);
+    border-left-color: rgb(0, 134, 175);
+    border-right-color: rgb(7, 176, 255);
+    height: 65px;
+    padding: 5px 5px 5px 40px;
+   
+    
+  }
+
+select{
+    border-radius: 100px !important;
+    border: 2px solid !important;
+    border-bottom-color: rgb(0, 162, 255) !important;
+    border-top-color: rgb(95, 118, 248) !important;
+    border-left-color: rgb(0, 134, 175) !important;
+    border-right-color: rgb(7, 176, 255) !important; /* Sets the border width and makes it transparent */
+    height: 65px;
+    padding: 5px 5px 5px 40px;
+    font-size: 16px;
+  }
+  
+
+  textarea {
+    border-radius:20px !important;
+    border: 2px solid !important;
+    border-bottom-color: rgb(0, 162, 255) !important;
+    border-top-color: rgb(95, 118, 248) !important;
+    border-left-color: rgb(0, 134, 175) !important;
+    border-right-color: rgb(7, 176, 255) !important;
+    padding: 5px 5px 5px 40px;
+    font-size: 16px;
+    height: 200px !important;
+  }
+  
+
+textarea::placeholder{
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal; 
+  font-size: 16px;
+  line-height: 150px; /* Set line-height equal to height */
+  padding: 0;
+  
+  }
