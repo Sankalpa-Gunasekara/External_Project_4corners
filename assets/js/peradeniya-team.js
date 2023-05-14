@@ -1,22 +1,22 @@
-const PeradeniyaTeam = () => {
-  const items = [
-    {
-      name: "Mahinda Hewage",
-      designation: "Assistant Engineer",
-      contactNumber: "081 2388500",
-    },
-    {
-      name: "Saman Jayasundara",
-      designation: "Assistant Engineer",
-      contactNumber: "081 2388500",
-    },
-    {
-      name: "Asanka Chaminda",
-      designation: "Demonstrator",
-      contactNumber: "081 2238850",
-    },
-  ];
+const items = [
+  {
+    name: "Mahinda Hewage",
+    designation: "Assistant Engineer",
+    contactNumber: "081 2388500",
+  },
+  {
+    name: "Saman Jayasundara",
+    designation: "Assistant Engineer",
+    contactNumber: "081 2388500",
+  },
+  {
+    name: "Asanka Chaminda",
+    designation: "Demonstrator",
+    contactNumber: "081 2238850",
+  },
+];
 
+const PeradeniyaTeam = () => {
   return `<div>
               <table class="table table-bordered">
               <thead>
@@ -27,15 +27,17 @@ const PeradeniyaTeam = () => {
                 </tr>
               </thead>
               <tbody>
-                ${items.map(
-                  (item) => ` 
+                ${items
+                  .map(
+                    (item) => ` 
                     <tr>
                         <td>${item.name}</td>
                         <td>${item.designation}</td>
                         <td>${item.contactNumber}</td>
                     </tr>
               `
-                )}
+                  )
+                  .join(``)}
               </tbody>
             </table>
             </div>
