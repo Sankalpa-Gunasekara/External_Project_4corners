@@ -107,6 +107,15 @@
   font-weight: 700;
 }
 
+.main-heading {
+  font-size: 3.5cm !important;
+  font-weight: 900;
+}
+
+.main-heading-second {
+  line-height: 50px;
+}
+
 @media screen and (min-width: 992px) {
   .full-width {
     width: 100% !important;
