@@ -1,0 +1,54 @@
+.image-border {
+  border-right: 5px solid black;
+}
+
+.gradient-border {
+  height: 5px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, #1426be, #0590ed);
+  width: 60px;
+}
+
+.electronics-communication-details {
+  width: 320px;
+}
+
+.electronics-communication-content ul {
+  position: absolute;
+  bottom: 205px;
+  left: 45px;
+}
+
+.electronics-communication-content {
+  width: 100%;
+}
+
+.electronics-and-ommunication-course-details {
+  width: calc(100% - 320px);
+}
+
+@media screen and (max-width: 767px) {
+  .image-border {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .electronics-communication-content ul {
+    bottom: 280px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .electronics-communication-details {
+    margin: auto;
+  }
+  .electronics-and-ommunication-course-details {
+    width: 100%;
+  }
+  .electronics-communication-content ul {
+    position: absolute;
+    bottom: 150px;
+    left: 45px;
+  }
+}
